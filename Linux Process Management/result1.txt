@@ -1,0 +1,36 @@
+invalid action 'wait' in line 9, ignored
+invalid format in line 15, ignored
+invalid id 'id_4' in line 18, ignored
+invalid id 'ID3' in line 19, ignored
+invalid action 'restart' in line 22, ignored
+invalid order '10000' in line 25, ignored
+invalid order 'abc' in line 26, ignored
+empty command in line 29, ignored
+duplicate id 'id2' in line 32, ignored
+invalid pipe-id 'id_3' in line 35, ignored
+unknown pipe-id 'id5' in line 38, ignored
+invalid action 'wait' in line 41, ignored
+pipe not allowed for 'respawn' tasks in line 42, ignored
+pipe not allowed for already piped tasks in line 45, ignored
+pipe not allowed for already piped tasks in line 46, ignored
+'Task1' start (timeout 1)
+'Task2' start (timeout 1)
+'Task1' receive 'Hello from Task2'
+'Task2' receive 'Hi from Task1'
+'Task1' end
+'Task2' end
+'Task4' start (timeout 4)
+failed to execute command './TTT': No such file or directory
+'Task5' start (timeout 1)
+'Task5' end
+'Task6' start (timeout 2)
+'Task4' end
+'Task4' start (timeout 4)
+'Task6' end
+'Task4' end
+'Task4' start (timeout 4)
+'Task4' end
+'Task4' start (timeout 4)
+terminated by SIGNAL(2)
+'Task4' terminated by SIGNAL(2)
+'Task4' end

@@ -1,0 +1,40 @@
+
+[SJF]
+P1 ***                  
+P2    ******            
+P3            ****      
+P4                ***** 
+P5          **          
+CPU TIME: 20
+AVERAGE TURNAROUND TIME: 7.60
+AVERAGE WAITING TIME: 3.60
+
+[SRT]
+P1 ***                  
+P2    *      *****      
+P3     ****             
+P4                ***** 
+P5         **           
+CPU TIME: 20
+AVERAGE TURNAROUND TIME: 7.20
+AVERAGE WAITING TIME: 3.20
+
+[RR]
+P1 ***                  
+P2    ** *  *   *   *   
+P3      * *  *   *      
+P4         *   *   * ** 
+P5            *   *     
+CPU TIME: 20
+AVERAGE TURNAROUND TIME: 10.40
+AVERAGE WAITING TIME: 6.40
+
+[PR]
+P1 ***                  
+P2    *      *****      
+P3     ****             
+P4                ***** 
+P5         **           
+CPU TIME: 20
+AVERAGE TURNAROUND TIME: 7.20
+AVERAGE WAITING TIME: 3.20
